@@ -3,6 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+// AOS import
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const rootElement = document.getElementById("root");
 if (rootElement) {

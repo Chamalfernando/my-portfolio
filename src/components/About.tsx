@@ -2,7 +2,7 @@ import React from "react";
 
 // src/components/About.tsx
 const About = () => (
-  <section id="about" className="py-12 px-6 max-w-4xl mx-auto">
+  <section id="about" className="mt-10 py-12 px-6 max-w-4xl mx-auto">
     <h3 className="text-2xl font-bold mb-4">About Me</h3>
     <p>
       I'm a 3rd-year Computer Science undergraduate at UCSC. I've worked on
