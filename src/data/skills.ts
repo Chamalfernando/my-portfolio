@@ -15,7 +15,7 @@ export const skills = [
   {
     name: "React",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
   },
   {
     name: "JavaScript",
@@ -25,7 +25,7 @@ export const skills = [
   {
     name: "Node.js",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
   },
   {
     name: "Express.js",
@@ -50,7 +50,7 @@ export const skills = [
   {
     name: "Java",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
   },
   {
     name: "C",
@@ -75,12 +75,12 @@ export const skills = [
   {
     name: "MS SQL Server",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
   },
   {
     name: "MySQL",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
   },
   {
     name: "PHP",
@@ -92,6 +92,80 @@ export const skills = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
   },
+  {
+    name: "Swagger",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
+  },
+  {
+    name: "CSS3",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+  },
+  {
+    name: "SaSS",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+  },
+  {
+    name: "HTML5",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+  },
+  {
+    name: "Dart",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
+  },
+  {
+    name: "Firebase",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+  },
+  {
+    name: "Git",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+  },
+  {
+    name: "Markddown",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg",
+  },
+  {
+    name: "OpenAPI",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openapi/openapi-original.svg",
+  },
+  {
+    name: "Postman",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+  },
+  // {
+  //   name: "Spring",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+  // },
+  // {
+  //   name: "",
+  //   image: "",
+  // },
+  // {
+  //   name: "GraphQL",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain-wordmark.svg",
+  // },
+  // {
+  //   name: "Jenkins",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg",
+  // },
+  // {
+  //   name: "Kubernetes",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg",
+  // },
   // {
   //   name: "Docker",
   //   image:
@@ -106,9 +180,5 @@ export const skills = [
   //   name: "Ansible",
   //   image:
   //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original-wordmark.svg",
-  // },
-  // {
-  //   name: "",
-  //   image: "",
   // },
 ];
