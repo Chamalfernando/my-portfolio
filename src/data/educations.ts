@@ -3,7 +3,7 @@ export const educations = [
   {
     title: "BSc in Computer Science",
     institution: "University of Colombo School of Computing",
-    duration: "2022 - Present(Expected to Graduate in October 2025)",
+    duration: "2022 - Present (Expected to Graduate in October 2025)",
     description: "Focused on Full Stack web development",
     icon: "🎓",
   },
@@ -16,7 +16,7 @@ export const educations = [
   },
   {
     title: "GCE Ordinary Level - Local Syllabus",
-    institution: "Carey Colombo 08",
+    institution: "Carey College Colombo 08",
     duration: "2017 - 2011",
     description: "Successfully completed O/Ls with 9 A's",
     icon: "🏫",

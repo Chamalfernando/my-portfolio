@@ -1,5 +1,6 @@
 import React from "react";
 import { socialLinks } from "../data/socialLinks";
+import { FaGoogle } from "react-icons/fa";
 
 const Footer = () => (
   <footer className="bg-white py-12 shadow-inner">
