@@ -2,7 +2,7 @@ import React from "react";
 import { socialLinks } from "../data/socialLinks";
 
 const Footer = () => (
-  <footer className="bg-white py-12 shadow-inner">
+  <footer id="contactFooter" className="bg-white py-12 shadow-inner">
     <div className="max-w-4xl mx-auto px-6 text-center">
       <p className="mb-4">📧 chamaldeshitha2001@gmail.com</p>
 
