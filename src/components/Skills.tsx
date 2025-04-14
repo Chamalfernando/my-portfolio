@@ -106,7 +106,7 @@
 
 // export default Skills;
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { skills } from "../data/skills";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -117,7 +117,12 @@ type Skill = {
   image: string;
 };
 
-const COLUMN_COUNT = 4;
+// const COLUMN_COUNT = 4;
+const getColumnCount = (width: number): number => {
+  if (width < 640) return 1; // mobile (sm)
+  if (width < 768) return 2; // tablet (md)
+  return 4; // desktop (lg and above)
+};
 
 const splitIntoColumns = (skills: Skill[], count: number): Skill[][] => {
   const columns: Skill[][] = Array.from({ length: count }, () => []);
@@ -129,12 +134,27 @@ const splitIntoColumns = (skills: Skill[], count: number): Skill[][] => {
 };
 
 const Skills = () => {
-  const columns = splitIntoColumns(skills, COLUMN_COUNT);
+  const [columnCount, setColumnCount] = useState(
+    getColumnCount(window.innerWidth)
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setColumnCount(getColumnCount(window.innerWidth));
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const columns = splitIntoColumns(skills, columnCount);
 
   return (
     <section id="skills" className="py-12 px-6 max-w-6xl mx-auto">
       <h3 className="text-2xl font-bold mb-6 text-center">Skills</h3>
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      {/* <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6"> */}
+      <div
+        className={`grid grid-cols-${columnCount} sm:grid-cols-2 md:grid-cols-4 gap-6`}
+      >
         {columns.map((col, colIndex) => (
           <div key={colIndex} className="h-96 overflow-hidden">
             <Swiper

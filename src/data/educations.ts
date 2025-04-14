@@ -17,7 +17,7 @@ export const educations = [
   {
     title: "GCE Ordinary Level - Local Syllabus",
     institution: "Carey College Colombo 08",
-    duration: "2017 - 2011",
+    duration: "2011 - 2017",
     description: "Successfully completed O/Ls with 9 A's",
     icon: "🏫",
   },

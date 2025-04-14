@@ -1,11 +1,9 @@
 import React from "react";
 import { socialLinks } from "../data/socialLinks";
-import { FaGoogle } from "react-icons/fa";
 
 const Footer = () => (
   <footer className="bg-white py-12 shadow-inner">
     <div className="max-w-4xl mx-auto px-6 text-center">
-      <h3 className="text-2xl font-bold mb-4">Contact Me</h3>
       <p className="mb-4">📧 chamaldeshitha2001@gmail.com</p>
 
       <ul className="flex justify-center space-x-6 mb-6 text-2xl">
@@ -25,7 +23,7 @@ const Footer = () => (
       </ul>
 
       <p className="text-sm text-gray-500">
-        © 2025 Chamal Fernando. All rights reserved.
+        © {new Date().getFullYear()} Chamal Fernando. All rights reserved.
       </p>
     </div>
   </footer>

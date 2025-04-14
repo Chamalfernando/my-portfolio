@@ -6,7 +6,7 @@ const Hero = () => (
     data-aos="fade-up"
     data-aos-duration="1000"
   >
-    <h2 className="text-4xl font-bold mb-4">Hey, I'm Chamal 👋</h2>
+    <h2 className="text-4xl font-bold mb-4">Hey, I'm Chamal 😎</h2>
     <p className="max-w-xl mx-auto text-lg">
       A passionate Computer Science undergraduate and full-stack developer who
       loves building useful things.
