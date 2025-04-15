@@ -8,7 +8,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Collaborator email submitted:", email);
+    // console.log("Collaborator email submitted:", email);
     setSubmitted(true);
     setEmail(""); // reset
   };

@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Educations from "./components/Education";
-import Blogs from "./components/Blogs";
+// import Blogs from "./components/Blogs";
 
 function App() {
   useEffect(() => {
@@ -24,7 +24,7 @@ function App() {
       <About />
       <Skills />
       <Educations />
-      <Blogs />
+      {/* <Blogs /> */}
       <Projects />
       <Contact />
       <Footer />

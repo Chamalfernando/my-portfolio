@@ -8,14 +8,14 @@ export const socialLinks = [
     url: "https://www.linkedin.com/in/chamal-fernando/",
     icon: React.createElement(FaLinkedin),
   },
-  {
-    name: "Facebook",
-    url: "https://www.facebook.com/",
-    icon: React.createElement(FaFacebook),
-  },
+  // {
+  //   name: "Facebook",
+  //   url: "https://www.facebook.com/",
+  //   icon: React.createElement(FaFacebook),
+  // },
   {
     name: "WhatsApp",
-    url: "https://wa.me/",
+    url: "https://wa.me/+94711944422",
     icon: React.createElement(FaWhatsapp),
   },
   {
