@@ -13,7 +13,7 @@ export const skills = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
   },
   {
-    name: "React",
+    name: "React.js",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
   },
@@ -42,21 +42,21 @@ export const skills = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
   },
-  {
-    name: "Angular Material",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularmaterial/angularmaterial-original.svg",
-  },
+  // {
+  //   name: "Angular Material",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularmaterial/angularmaterial-original.svg",
+  // },
   {
     name: "Java",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
   },
-  {
-    name: "C",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-  },
+  // {
+  //   name: "C",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+  // },
   {
     name: "C++",
     image:
@@ -102,11 +102,11 @@ export const skills = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
   },
-  {
-    name: "SaSS",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
-  },
+  // {
+  //   name: "SaSS",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+  // },
   {
     name: "HTML5",
     image:
@@ -117,26 +117,26 @@ export const skills = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
   },
-  {
-    name: "Firebase",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
-  },
+  // {
+  //   name: "Firebase",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+  // },
   {
     name: "Git",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
   },
   {
-    name: "Markddown",
+    name: "Markdown",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg",
   },
-  {
-    name: "OpenAPI",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openapi/openapi-original.svg",
-  },
+  // {
+  //   name: "OpenAPI",
+  //   image:
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openapi/openapi-original.svg",
+  // },
   {
     name: "Postman",
     image:
