@@ -113,28 +113,28 @@ const Header = () => {
           <a
             href="#about"
             className="hover:text-blue-600"
-            onClick={() => navigate(`/my-portfolio`)}
+            onClick={() => navigate(`/`)}
           >
             About
           </a>
           <a
             href="#skills"
             className="hover:text-blue-600"
-            onClick={() => navigate(`/my-portfolio`)}
+            onClick={() => navigate(`/`)}
           >
             Skills
           </a>
           <a
             href="#projects"
             className="hover:text-blue-600"
-            onClick={() => navigate(`/my-portfolio`)}
+            onClick={() => navigate(`/`)}
           >
             Projects
           </a>
           <a
             href="#contactFooter"
             className="hover:text-blue-600"
-            onClick={() => navigate(`/my-portfolio`)}
+            onClick={() => navigate(`/`)}
           >
             Contact
           </a>
