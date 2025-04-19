@@ -25,6 +25,7 @@
 // export default Header;
 
 import React, { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [visible, setVisible] = useState(true);
@@ -33,6 +34,7 @@ const Header = () => {
   const headerRef = useRef<HTMLElement | null>(null); // Reference to the header element
   const mouseNearTop = useRef(false); // Track if mouse is near the top of the page
   const hideTimeout = useRef<number | null>(null); // For hiding with delay
+  const navigate = useNavigate();
 
   //   useEffect(() => {
   //     if (headerRef.current) {
@@ -108,16 +110,32 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="text-xl font-bold">Chamal Fernando</h1>
         <nav className="space-x-4">
-          <a href="#about" className="hover:text-blue-600">
+          <a
+            href="#about"
+            className="hover:text-blue-600"
+            onClick={() => navigate(`/my-portfolio`)}
+          >
             About
           </a>
-          <a href="#skills" className="hover:text-blue-600">
+          <a
+            href="#skills"
+            className="hover:text-blue-600"
+            onClick={() => navigate(`/my-portfolio`)}
+          >
             Skills
           </a>
-          <a href="#projects" className="hover:text-blue-600">
+          <a
+            href="#projects"
+            className="hover:text-blue-600"
+            onClick={() => navigate(`/my-portfolio`)}
+          >
             Projects
           </a>
-          <a href="#contactFooter" className="hover:text-blue-600">
+          <a
+            href="#contactFooter"
+            className="hover:text-blue-600"
+            onClick={() => navigate(`/my-portfolio`)}
+          >
             Contact
           </a>
         </nav>

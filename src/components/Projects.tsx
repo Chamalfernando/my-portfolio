@@ -1,11 +1,14 @@
 // src/components/Projects.tsx
 import React, { useState } from "react";
 import { projects } from "../data/projects";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<
     null | (typeof projects)[0]
   >(null);
+
+  const navigate = useNavigate();
 
   return (
     <section id="projects" className="py-12 px-6 max-w-4xl mx-auto">
@@ -19,10 +22,18 @@ const Projects = () => {
             className="bg-white p-4 rounded-lg shadow cursor-pointer"
             data-aos="zoom-in"
             data-aos-delay="100"
-            onClick={() => setSelectedProject(proj)}
           >
-            <h4 className="font-semibold text-lg">{proj.title}</h4>
-            <p className="text-sm">{proj.overview}</p>
+            <h4
+              className="font-semibold text-lg"
+              onClick={() =>
+                navigate(`/projects/${encodeURIComponent(proj.title)}`)
+              }
+            >
+              {proj.title}
+            </h4>
+            <p className="text-sm" onClick={() => setSelectedProject(proj)}>
+              {proj.overview}
+            </p>
           </div>
         ))}
       </div>

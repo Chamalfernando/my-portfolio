@@ -150,7 +150,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-12 px-6 max-w-6xl mx-auto">
-      <h3 className="text-2xl font-bold mb-6 text-center">Skills</h3>
+      <h3 className="text-2xl font-bold mb-6 text-center">Technical Skills</h3>
       {/* <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6"> */}
       <div
         className={`grid grid-cols-${columnCount} sm:grid-cols-2 md:grid-cols-4 gap-6`}
