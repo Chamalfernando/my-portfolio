@@ -41,7 +41,7 @@ function App() {
           path="/my-portfolio"
           element={
             <>
-              <Hero />
+              {/* <Hero /> */}
               {/* <About /> */}
               <WExperience />
               <Skills />
